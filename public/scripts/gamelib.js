@@ -28,6 +28,7 @@ window.onload = async () => {
 
     user_info = await get_user_info();
     resources = await get_resources_by_id(1, user_info.user_id);
+    
 
     await initialize_game()
     for (let i = 0; i < troops.length; i++) {
